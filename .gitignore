@@ -1,0 +1,23 @@
+# system
+.DS_Store
+
+# IDEs and compilers
+*.iml
+*.log
+
+# dist_ Hybrid
+/mobile_dist/Hybrid/node_modules
+
+# dist_ android
+*.apk
+*.ap_
+*.aab
+
+/mobile_dist/CoreNote_Android/.navigation/
+/mobile_dist/CoreNote_Android/.gradle/
+/mobile_dist/CoreNote_Android/.idea/
+
+# dist_ ios
+
+# dist_ browser
+/CoreNote/node_modules
