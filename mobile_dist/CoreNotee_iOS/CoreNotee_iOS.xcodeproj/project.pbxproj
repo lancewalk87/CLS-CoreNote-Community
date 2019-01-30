@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		174566B222023DEE00808625 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 174566B122023DEE00808625 /* AppDelegate.m */; };
+		174566B522023DEE00808625 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 174566B422023DEE00808625 /* ViewController.m */; };
+		174566B822023DEE00808625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174566B622023DEE00808625 /* Main.storyboard */; };
+		174566BB22023DEE00808625 /* CoreNotee_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 174566B922023DEE00808625 /* CoreNotee_iOS.xcdatamodeld */; };
+		174566BD22023DF100808625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 174566BC22023DF100808625 /* Assets.xcassets */; };
+		174566C022023DF100808625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174566BE22023DF100808625 /* LaunchScreen.storyboard */; };
+		174566C322023DF100808625 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 174566C222023DF100808625 /* main.m */; };
+		174566CD22023DF100808625 /* CoreNotee_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 174566CC22023DF100808625 /* CoreNotee_iOSTests.m */; };
+		174566D822023DF100808625 /* CoreNotee_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 174566D722023DF100808625 /* CoreNotee_iOSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		174566C922023DF100808625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 174566A522023DEE00808625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 174566AC22023DEE00808625;
+			remoteInfo = CoreNotee_iOS;
+		};
+		174566D422023DF100808625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 174566A522023DEE00808625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 174566AC22023DEE00808625;
+			remoteInfo = CoreNotee_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		174566AD22023DEE00808625 /* CoreNotee_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreNotee_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		174566B022023DEE00808625 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		174566B122023DEE00808625 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		174566B322023DEE00808625 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		174566B422023DEE00808625 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		174566B722023DEE00808625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		174566BA22023DEE00808625 /* CoreNotee_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreNotee_iOS.xcdatamodel; sourceTree = "<group>"; };
+		174566BC22023DF100808625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		174566BF22023DF100808625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		174566C122023DF100808625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		174566C222023DF100808625 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		174566C822023DF100808625 /* CoreNotee_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreNotee_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		174566CC22023DF100808625 /* CoreNotee_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreNotee_iOSTests.m; sourceTree = "<group>"; };
+		174566CE22023DF100808625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		174566D322023DF100808625 /* CoreNotee_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreNotee_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		174566D722023DF100808625 /* CoreNotee_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreNotee_iOSUITests.m; sourceTree = "<group>"; };
+		174566D922023DF100808625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		174566AA22023DEE00808625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		174566C522023DF100808625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		174566D022023DF100808625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		174566A422023DEE00808625 = {
+			isa = PBXGroup;
+			children = (
+				174566AF22023DEE00808625 /* CoreNotee_iOS */,
+				174566CB22023DF100808625 /* CoreNotee_iOSTests */,
+				174566D622023DF100808625 /* CoreNotee_iOSUITests */,
+				174566AE22023DEE00808625 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		174566AE22023DEE00808625 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				174566AD22023DEE00808625 /* CoreNotee_iOS.app */,
+				174566C822023DF100808625 /* CoreNotee_iOSTests.xctest */,
+				174566D322023DF100808625 /* CoreNotee_iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		174566AF22023DEE00808625 /* CoreNotee_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				174566B022023DEE00808625 /* AppDelegate.h */,
+				174566B122023DEE00808625 /* AppDelegate.m */,
+				174566B322023DEE00808625 /* ViewController.h */,
+				174566B422023DEE00808625 /* ViewController.m */,
+				174566B622023DEE00808625 /* Main.storyboard */,
+				174566BC22023DF100808625 /* Assets.xcassets */,
+				174566BE22023DF100808625 /* LaunchScreen.storyboard */,
+				174566C122023DF100808625 /* Info.plist */,
+				174566C222023DF100808625 /* main.m */,
+				174566B922023DEE00808625 /* CoreNotee_iOS.xcdatamodeld */,
+			);
+			path = CoreNotee_iOS;
+			sourceTree = "<group>";
+		};
+		174566CB22023DF100808625 /* CoreNotee_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				174566CC22023DF100808625 /* CoreNotee_iOSTests.m */,
+				174566CE22023DF100808625 /* Info.plist */,
+			);
+			path = CoreNotee_iOSTests;
+			sourceTree = "<group>";
+		};
+		174566D622023DF100808625 /* CoreNotee_iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				174566D722023DF100808625 /* CoreNotee_iOSUITests.m */,
+				174566D922023DF100808625 /* Info.plist */,
+			);
+			path = CoreNotee_iOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		174566AC22023DEE00808625 /* CoreNotee_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 174566DC22023DF100808625 /* Build configuration list for PBXNativeTarget "CoreNotee_iOS" */;
+			buildPhases = (
+				174566A922023DEE00808625 /* Sources */,
+				174566AA22023DEE00808625 /* Frameworks */,
+				174566AB22023DEE00808625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreNotee_iOS;
+			productName = CoreNotee_iOS;
+			productReference = 174566AD22023DEE00808625 /* CoreNotee_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		174566C722023DF100808625 /* CoreNotee_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 174566DF22023DF100808625 /* Build configuration list for PBXNativeTarget "CoreNotee_iOSTests" */;
+			buildPhases = (
+				174566C422023DF100808625 /* Sources */,
+				174566C522023DF100808625 /* Frameworks */,
+				174566C622023DF100808625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				174566CA22023DF100808625 /* PBXTargetDependency */,
+			);
+			name = CoreNotee_iOSTests;
+			productName = CoreNotee_iOSTests;
+			productReference = 174566C822023DF100808625 /* CoreNotee_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		174566D222023DF100808625 /* CoreNotee_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 174566E222023DF100808625 /* Build configuration list for PBXNativeTarget "CoreNotee_iOSUITests" */;
+			buildPhases = (
+				174566CF22023DF100808625 /* Sources */,
+				174566D022023DF100808625 /* Frameworks */,
+				174566D122023DF100808625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				174566D522023DF100808625 /* PBXTargetDependency */,
+			);
+			name = CoreNotee_iOSUITests;
+			productName = CoreNotee_iOSUITests;
+			productReference = 174566D322023DF100808625 /* CoreNotee_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		174566A522023DEE00808625 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "CodeLife-Productions";
+				TargetAttributes = {
+					174566AC22023DEE00808625 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					174566C722023DF100808625 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 174566AC22023DEE00808625;
+					};
+					174566D222023DF100808625 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 174566AC22023DEE00808625;
+					};
+				};
+			};
+			buildConfigurationList = 174566A822023DEE00808625 /* Build configuration list for PBXProject "CoreNotee_iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 174566A422023DEE00808625;
+			productRefGroup = 174566AE22023DEE00808625 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				174566AC22023DEE00808625 /* CoreNotee_iOS */,
+				174566C722023DF100808625 /* CoreNotee_iOSTests */,
+				174566D222023DF100808625 /* CoreNotee_iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		174566AB22023DEE00808625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174566C022023DF100808625 /* LaunchScreen.storyboard in Resources */,
+				174566BD22023DF100808625 /* Assets.xcassets in Resources */,
+				174566B822023DEE00808625 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		174566C622023DF100808625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		174566D122023DF100808625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		174566A922023DEE00808625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174566B522023DEE00808625 /* ViewController.m in Sources */,
+				174566BB22023DEE00808625 /* CoreNotee_iOS.xcdatamodeld in Sources */,
+				174566C322023DF100808625 /* main.m in Sources */,
+				174566B222023DEE00808625 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		174566C422023DF100808625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174566CD22023DF100808625 /* CoreNotee_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		174566CF22023DF100808625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174566D822023DF100808625 /* CoreNotee_iOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		174566CA22023DF100808625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 174566AC22023DEE00808625 /* CoreNotee_iOS */;
+			targetProxy = 174566C922023DF100808625 /* PBXContainerItemProxy */;
+		};
+		174566D522023DF100808625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 174566AC22023DEE00808625 /* CoreNotee_iOS */;
+			targetProxy = 174566D422023DF100808625 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		174566B622023DEE00808625 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				174566B722023DEE00808625 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		174566BE22023DF100808625 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				174566BF22023DF100808625 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		174566DA22023DF100808625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		174566DB22023DF100808625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		174566DD22023DF100808625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K2EH573CUQ;
+				INFOPLIST_FILE = CoreNotee_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeLife-Productions.CoreNotee-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		174566DE22023DF100808625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K2EH573CUQ;
+				INFOPLIST_FILE = CoreNotee_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeLife-Productions.CoreNotee-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		174566E022023DF100808625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K2EH573CUQ;
+				INFOPLIST_FILE = CoreNotee_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeLife-Productions.CoreNotee-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreNotee_iOS.app/CoreNotee_iOS";
+			};
+			name = Debug;
+		};
+		174566E122023DF100808625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K2EH573CUQ;
+				INFOPLIST_FILE = CoreNotee_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeLife-Productions.CoreNotee-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreNotee_iOS.app/CoreNotee_iOS";
+			};
+			name = Release;
+		};
+		174566E322023DF100808625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K2EH573CUQ;
+				INFOPLIST_FILE = CoreNotee_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeLife-Productions.CoreNotee-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoreNotee_iOS;
+			};
+			name = Debug;
+		};
+		174566E422023DF100808625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K2EH573CUQ;
+				INFOPLIST_FILE = CoreNotee_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeLife-Productions.CoreNotee-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoreNotee_iOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		174566A822023DEE00808625 /* Build configuration list for PBXProject "CoreNotee_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				174566DA22023DF100808625 /* Debug */,
+				174566DB22023DF100808625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		174566DC22023DF100808625 /* Build configuration list for PBXNativeTarget "CoreNotee_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				174566DD22023DF100808625 /* Debug */,
+				174566DE22023DF100808625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		174566DF22023DF100808625 /* Build configuration list for PBXNativeTarget "CoreNotee_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				174566E022023DF100808625 /* Debug */,
+				174566E122023DF100808625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		174566E222023DF100808625 /* Build configuration list for PBXNativeTarget "CoreNotee_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				174566E322023DF100808625 /* Debug */,
+				174566E422023DF100808625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		174566B922023DEE00808625 /* CoreNotee_iOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				174566BA22023DEE00808625 /* CoreNotee_iOS.xcdatamodel */,
+			);
+			currentVersion = 174566BA22023DEE00808625 /* CoreNotee_iOS.xcdatamodel */;
+			path = CoreNotee_iOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 174566A522023DEE00808625 /* Project object */;
+}
